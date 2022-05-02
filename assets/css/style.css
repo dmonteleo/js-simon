@@ -1,28 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  background-color: darkcyan;
+  font-family: 'Rubik', sans-serif;
 }
 
-body {
-  background-color: yellowgreen;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main{
   height: 100vh;
 }
-
-.container {
-  /* background-color: red; */
-  height: 400px;
-  width: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.content{
+  text-align: center;
 }
 
-span {
-  /* background-color: blue; */
-  color: rebeccapurple;
-  font-size: 100px;
+.message{
+  font-size: 20px;
 }
